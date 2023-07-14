@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    color:rgb(0, 0, 0);
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+h1{
+    font-size:20px;
+}
+
+/* navbar styling */
+.nav{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #ffffff;
+    height:70px;
+}
+
+/* navbar left styling */
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+/* logo  */
+#logo{
+    width:155px;
+    height:90px;
+}
+
+/* navbar mid styling */
+.nowrapper i{
+    font-size:20px;
+}
+
+/* search box styling  */
+.nav-search {
+    position: relative;
+    padding:0px 10px;
+    height:42px;
+    width: 300px;
+    border:3px solid #000000;
+    border-radius: 50px;
+}
+
+.search-wrapper{
+    width:100%;
+    height:100%;
+    vertical-align:middle;
+}
+
+#search{
+    border:none;
+    height:100%;
+    width:100%;
+    padding: 0px 5px;
+    font: size 15px;
+    font-family: "Nunito";
+    color: black;
+}
+
+/* styling wrapper in navbar */
+.wrapper{
+    /* position: relative; */
+    height:40px;
+    width:40px;
+    padding:0px 5px;
+    border:0px solid #000000;
+    border-radius: 100%;
+    margin:0px 10px;
+    background-color: rgb(233,232,237);
+
+}
+.wrapper i{
+    text-align: center;
+    width:100%;
+    height:100%;
+    vertical-align:middle;
+    line-height: 35px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+    gap: 5rem;
+    width:90%;
+    margin:1rem auto;
+  
+}
+
+/* main section styling */
+
+.sidepanel,.postsection,.rightsection{
+    height:90vh;
+    width:100%;
+    margin:20px auto;
+
+}
+
+/* sidepanel styling */
+
+
+/* post section styling */
+
+.postsection{
+    
+}
+.post{
+    background-color: rgb(240, 237, 237);
+    padding:10px;
+    border-radius: 10px;
+}
+.post-upper{
+    /* position:relative; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+
+.search-post{
+    padding:0px 10px;
+    height:42px;
+    border:1px solid gray;
+    border-radius: 50px;
+    width:85%;
+}
+
+.post-lower{
+    display:flex;
+    gap:2rem;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    margin-left:1rem;
+    margin-top:1rem;
+}
+
+.posts-iv{
+    height:200px;
+    width:100%;
+    background-color: gray;
+    display:relative;
+}
